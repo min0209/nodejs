@@ -1,6 +1,6 @@
 # nodejs
 
-![1560947964784](C:\Users\user\AppData\Roaming\Typora\typora-user-images\1560947964784.png)
+![nodejs](C:\Users\user\Pictures\nodejs.JPG)
 
 ​	
 
@@ -11,6 +11,8 @@
 ## nodejs?
 
 * [node?](<https://asfirstalways.tistory.com/43>)
+* [nodejs 특징및 장점](<https://jayzzz.tistory.com/55>)
+* 
 
 ## nodejs 설치하기
 
@@ -21,6 +23,5 @@
 
 
 
-
-
 ## modules
+
