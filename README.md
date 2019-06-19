@@ -32,7 +32,7 @@
 $npm init
 ```
 
-![1560949556745](C:\Users\user\AppData\Roaming\Typora\typora-user-images\1560949556745.png)
+![init](<https://github.com/sera9786/nodejs/blob/master/img/init.JPG>)
 
 * name : 이 프로젝트의 이름
 * version : 현재 생성하는 npm 파일의 버전. 이전에 따로 배포하는 등의 작업이 없었고, 처음이라면 그대로 엔터를 누른다(1.0.0)으로 설정
