@@ -10,7 +10,7 @@
 
 ## nodejs?
 
-* [node?](<https://asfirstalways.tistory.com/43>)
+* [node?](<https://asfirstalways.tistory.com/43>)	
 * [nodejs 특징및 장점](<https://jayzzz.tistory.com/55>)
 
 ## nodejs 설치하기
@@ -46,7 +46,9 @@ $npm init
 
 
 
-이렇게 package.json이 생성된것을 확인할수있다 npm init말고도 질문없이하고싶다면 이렇게 입력하자.
+이렇게 package.json이 생성된것을 확인할수있다.
+
+ npm init말고도 질문없이하고싶다면 이렇게 입력하자.
 
 ```
 $npm init -y
