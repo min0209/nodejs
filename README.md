@@ -1,6 +1,6 @@
 # nodejs
 
-![nodejs](C:\Users\user\Pictures\nodejs.JPG)
+![nodejs](<https://github.com/sera9786/nodejs/blob/master/img/nodejs.JPG>)
 
 ​	
 
@@ -54,7 +54,7 @@ $npm init -y
 
 
 
-![1560949904741](C:\Users\user\AppData\Roaming\Typora\typora-user-images\1560949904741.png)
+![1560949904741](<https://github.com/sera9786/nodejs/blob/master/img/packege.JPG>)
 
 ## modules
 
