@@ -2,8 +2,6 @@
 
 ![nodejs](<https://github.com/sera9786/nodejs/blob/master/img/nodejs.JPG>)
 
-​	
-
 이 레퍼지스토리는 nodejs를 더 능숙하게 다루기위해 nodejs를 집중적으로 공부하기위한 레퍼지스토리입니다
 
 
@@ -54,9 +52,26 @@ $npm init
 $npm init -y
 ```
 
-
-
 ![1560949904741](<https://github.com/sera9786/nodejs/blob/master/img/packege.JPG>)
+
+전체적인 디렉토리 구조는 이렇습니다 미리만들지 마시고 앞으로 예제를 만들면서 같이 만들도록해요.
+
+![directory](<https://github.com/sera9786/nodejs/blob/master/img/%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EA%B5%AC%EC%A1%B0.JPG>)
+
+## express
+
+위 개발환경준비 부터 시작하겠습니다.
+
+* [express 생활코딩](<https://opentutorials.org/course/3370>)
+* [express란?](<https://wikibook.co.kr/article/what-is-expressjs/>)
+
+우선 express를 쓰기위한 모듈이필요합니다 터미널에서 npm을 이용하여 express 모듈을 다운받도록합시다.
+
+```
+$ npm i -s express
+```
+
+
 
 ## modules
 
