@@ -71,7 +71,7 @@ $npm init -y
 $ npm i -s express
 ```
 
-
+이제 express를 사용하기위한 핵심적이 모듈은 모두 완성되었습니다.
 
 ## modules
 
