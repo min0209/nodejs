@@ -56,7 +56,7 @@ $npm init -y
 
 전체적인 디렉토리 구조는 이렇습니다 미리만들지 마시고 앞으로 예제를 만들면서 같이 만들도록해요.
 
-![directory](<https://github.com/sera9786/nodejs/blob/master/img/%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EA%B5%AC%EC%A1%B0.JPG>)
+![directory](<https://github.com/sera9786/nodejs/blob/master/img/drectory.JPG>)
 
 ## express
 
