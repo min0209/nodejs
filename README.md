@@ -54,7 +54,7 @@ $npm init -y
 
 ![1560949904741](<https://github.com/sera9786/nodejs/blob/master/img/packege.JPG>)
 
-전체적인 디렉토리 구조는 이렇습니다 미리만들지 마시고 앞으로 예제를 만들면서 같이 만들도록해요.
+전체적인 디렉토리 구조는 이렇습니다 미리만들지 마시고 앞으로 예제를 만들면서 같이 만들도록해요.(디렉토리 구조는 사람마다 다를수있습니다)
 
 ![directory](<https://github.com/sera9786/nodejs/blob/master/img/drectory.JPG>)
 
@@ -73,5 +73,36 @@ $ npm i -s express
 
 이제 express를 사용하기위한 핵심적이 모듈은 모두 완성되었습니다.
 
-## modules
+## 객체
 
+* [전역 객체](<https://opentutorials.org/module/938/6774>)
+* [process 객체](https://opentutorials.org/module/938/7189)
+* 
+
+## modules
+* 모듈 다운로드 방법
+
+``` 
+npm i -s ~~ (npm install ~~, npm intall --save ~~ )
+```
+
+* npm i 옵션  
+	* -S 또는 --save  //  패키지의 Dependencies에 추가됨
+	* -D 또는 --save-dev //  패키지의 devDependencies에 추가됨
+	* -O 또는 --save-optional //  패키지의 optionalDependencies에 추가됨
+
+* 여기서 Dependencies라는 용어를 보게되는데 이는 설치된 모듈을 의미하며 어떤 어플리케이션을 실행하기 위해서 필요하다는 의미로 디펜던시(Dependencies)라고 부르게됩니다.
+  이때 디펜던시는 세 가지로 나뉘어집니다. 어떤 어떤 디펜던시로 추가할 것인지 결정할 수 있습니다.예를들어 -D를 사용하는 경우 개발 환경에서만 필요한 module인 경우 -D 플래그를 사용하게 됩니다. 개발환경에만 필요한 webpack처럼 번들 파일을 생성하거나 linting 등을 수행하는 유틸 기능들의 모듈이 여기에 해당할 수 있습니다.
+
+
+
+* 모듈 호출방법
+
+``` 
+const ~~ = require('~~');
+```
+
+
+
+* npm i express :  express를쓰기위한 모듈이다. 
+* npm i body-parser : 클라이언트의 HTTP요청중 POST요청의 바디데이터 접근위한 모듈이다.
