@@ -73,7 +73,7 @@ $ npm i -s express
 
 이제 express를 사용하기위한 핵심적이 모듈은 모두 완성되었습니다.
 
-이코드는 hello,world를 출력시키는 코드입니다. 터미널에 node app.js를 입력하고  "http://localhost:3000" 로 들어가주세요.
+이코드는 hello,world를 출력시키는 코드입니다. 
 
 ```
 //app.js
@@ -89,7 +89,15 @@ app.listen(3000, function(){
 });
 ```
 
+터미널에서 서버를 작동시켜주고 "http://localhost:3000"에 접속하면
 
+```
+$node app.js
+```
+
+<https://github.com/sera9786/nodejs/blob/master/img/hello%2Cworld.JPG>
+
+이렇게 hello,world가 출력되는 웹페이지가 완성됩니다.
 
 ## 객체
 
