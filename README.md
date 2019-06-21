@@ -73,11 +73,28 @@ $ npm i -s express
 
 이제 express를 사용하기위한 핵심적이 모듈은 모두 완성되었습니다.
 
+이코드는 hello,world를 출력시키는 코드입니다. 터미널에 node app.js를 입력하고  "http://localhost:3000" 로 들어가주세요.
+
+```
+//app.js
+var express = require('express')
+var app = express()
+
+app.get('/',function(req,res){
+    res.send("hello,world");
+});
+
+app.listen(3000, function(){
+    console.log('running on 3000 port')
+});
+```
+
+
+
 ## 객체
 
 * [전역 객체](<https://opentutorials.org/module/938/6774>)
 * [process 객체](https://opentutorials.org/module/938/7189)
-* 
 
 ## modules
 * 모듈 다운로드 방법
