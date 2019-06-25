@@ -22,7 +22,7 @@
 
 ## 개발환경준비 
 
- 터미널에서 npm 으로 packege.json을 생성해주자.	
+터미널에서 npm 으로 packege.json을 생성해주자.	
 
 모두 엔터로 넘어가준다
 
@@ -77,8 +77,8 @@ $ npm i -s express
 
 ```
 //app.js
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
 
 app.get('/',function(req,res){
     res.send("hello,world");
@@ -98,6 +98,33 @@ $node app.js
 <https://github.com/sera9786/nodejs/blob/master/img/hello%2Cworld.JPG>
 
 이렇게 hello,world가 출력되는 웹페이지가 완성됩니다.
+
+## http
+
+http를쓰기 위해선 http모듈이 필요합니다.
+
+```
+$ npm i -s http
+```
+
+```
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World!\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+
 
 ## 객체
 
