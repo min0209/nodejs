@@ -76,7 +76,6 @@ $ npm i -s express
 이코드는 hello,world를 출력시키는 코드입니다. 
 
 ```
-//app.js
 const express = require('express')
 const app = express()
 
@@ -106,7 +105,7 @@ http를쓰기 위해선 http모듈이 필요합니다.
 ```
 $ npm i -s http
 ```
-
+모듈을 다운받았으니 모듈은 불어온뒤 
 ```
 const http = require('http');
 
