@@ -128,6 +128,10 @@ server.listen(port, hostname, () => {
 
 그리고 status는 200으로보내 성공이란걸 알려주고 serHeader은 text로 해준다. 그리고 Hello world만 출력해주면 된다. console.log에는 hostname을 출력시켜주어 확인하기 편하게 해주고 port번호를 출력해준다. 
 
+이렇게 log창에 뜨면 ctrl+click 으로 들어가주면 "Hello world"가 잘 출력되는것을 확인할수있다.
+
+<https://github.com/sera9786/nodejs/blob/master/img/http_check.JPG>
+
 ## 객체
 
 * [전역 객체](<https://opentutorials.org/module/938/6774>)
