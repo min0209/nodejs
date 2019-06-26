@@ -105,7 +105,7 @@ http를쓰기 위해선 http모듈이 필요합니다.
 ```
 $ npm i -s http
 ```
-모듈을 다운받았으니 모듈은 불어온뒤 
+이코드는 hello world!를 출력하는 http 기본예제입니다.
 ```
 const http = require('http');
 
@@ -115,6 +115,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
+  //res.setHeader('Content-Type', 'text/html');
   res.end('Hello World!\n');
 });
 
@@ -123,7 +124,9 @@ server.listen(port, hostname, () => {
 });
 ```
 
+첫번째 코드는 http모듈을 불러오는 코드이고 hostname과 port를 설정해준다.
 
+그리고 status는 200으로보내 성공이란걸 알려주고 serHeader은 text로 해준다. 그리고 Hello world만 출력해주면 된다. console.log에는 hostname을 출력시켜주어 확인하기 편하게 해주고 port번호를 출력해준다. 
 
 ## 객체
 
