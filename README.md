@@ -110,7 +110,7 @@ var url = require('url');
 app.get('/',function(req,res){
     var _url = req.url;
     var queryData = url.parse(_url, true).query;
-    res.send(queryData.id);
+    res.send("id : " + queryData.id +" password : "+ queryData.password);
 });
 
 app.listen(3000, function(){
@@ -120,9 +120,7 @@ app.listen(3000, function(){
 
 <http://localhost:3000/?id=sera> 
 
-이코드를 실행시키고 저링크를 들어가면 sera가 출력 되는것을 알수있습니다.
-
-
+이코드를 실행시키고 저링크를 들어가면 sera가 출력 되는것을 알수있습니다. queryData에 query를 받아오고 id를 출력시키는 간단한 코드입니다. 여기에선 query가 사용되었는데 query는 /?id=sera 이부분에서 ?다음에 있는 정보를 가져옵니다 id와password를 받아오고싶으면<http://localhost:3000/?id=sera&password=1234>  이렇게 입력하시면 됩니다. 그리고 코드를 password도 출력해주면됩니다.
 
 
 
