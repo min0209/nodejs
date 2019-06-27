@@ -98,6 +98,34 @@ $node app.js
 
 이렇게 hello,world가 출력되는 웹페이지가 완성됩니다.
 
+### GET,POST
+
+흔히 쓰이는 http 요청 방식에는 GET, POST 두가지가 있습니다. 보통 GET은 정보를 가져오고 POST는 정보를 제출하는데 많이 쓰입니다. 먼저 GET으로 정보를 받는것부터 하겠습니다.
+
+```
+var express = require('express');
+var app = express();
+var url = require('url');
+
+app.get('/',function(req,res){
+    var _url = req.url;
+    var queryData = url.parse(_url, true).query;
+    res.send(queryData.id);
+});
+
+app.listen(3000, function(){
+    console.log('running on 3000 port')
+});
+```
+
+<http://localhost:3000/?id=sera> 
+
+이코드를 실행시키고 저링크를 들어가면 sera가 출력 되는것을 알수있습니다.
+
+
+
+
+
 ## http
 
 http를쓰기 위해선 http모듈이 필요합니다.
