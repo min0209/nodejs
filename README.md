@@ -132,6 +132,10 @@ app.listen(3000, function(){
 
 우선 nodejs/public/html 에 index.html을 만들어줍니다.
 
+![createindex](<https://github.com/sera9786/nodejs/blob/master/img/createindex.JPG>)
+
+html파일이 생성되었으면 기본 구조를 알아야합니다. 우선 doc를 치고 엔터를 누르면 기본적인 구조가 생성됩니다.
+
 ## http
 
 http를쓰기 위해선 http모듈이 필요합니다.
