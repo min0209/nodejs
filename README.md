@@ -161,6 +161,8 @@ app.engine('html', require('ejs').renderFile);
 
 이후 app.js를 실행시키고 [localhost:3000/](<http://localhost:3000/>)에 들어가면 hello,world를 확인할수있습니다.
 
+![hello,world](<https://github.com/sera9786/nodejs/blob/master/img/hello%2Cworld_html.JPG>)
+
 ## http
 
 http를쓰기 위해선 http모듈이 필요합니다.
