@@ -142,6 +142,25 @@ html을 기본적으로 할수있다고 생각하고 설명은 건너뛰겠습�
 
 다시 app.js로 넘어와 몇가지 모듈을 추가해줍니다.
 
+````
+$npm i path
+$npm i ejs
+````
+
+그리고 아래있는 코드을 추가해주면됩니다.
+
+첫번째 줄은 세번째줄에있는 path.join으로 경로를 설정 해주기 위해 사용하는 모듈입니다.
+두번째 줄은 view engine을 ejs란것으로 설정해줍니다.                                                                                                      세번째 줄은 html파일 위치를 찾아갈수있도록 지정해줍니다.                                                                                             네번째 줄은 서버가 HTML 렌더링을 할 때, EJS 엔진을 사용하도록 설정합니다.
+
+```
+var path = require('path');
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'public'));
+app.engine('html', require('ejs').renderFile);
+```
+
+이후 app.js를 실행시키고 [localhost:3000/](<http://localhost:3000/>)에 들어가면 hello,world를 확인할수있습니다.
+
 ## http
 
 http를쓰기 위해선 http모듈이 필요합니다.
