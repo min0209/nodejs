@@ -94,7 +94,7 @@ app.listen(3000, function(){
 $node app.js
 ```
 
-[hello](<https://github.com/sera9786/nodejs/blob/master/img/hello%2Cworld.JPG>)
+![hello](<https://github.com/sera9786/nodejs/blob/master/img/hello%2Cworld.JPG>)
 
 이렇게 hello,world가 출력되는 웹페이지가 완성됩니다.
 
@@ -119,9 +119,9 @@ app.listen(3000, function(){
 ```
 
 이코드는 queryData에 query를 받아오고 id와 password를 출력시키는 간단한 코드입니다. 여기에선 query가 사용되었는데 query는 /?id=sera&password=1234 이부분에서 ?다음에 있는 정보를 가져옵니다. 코드를 실행시키고 이링크에 들어가면 이렇게 id와password가 출력 되는 것 을 확인할수있습니다.                             
-[password](<http://localhost:3000/?id=sera&password=1234>)
+![password](<http://localhost:3000/?id=sera&password=1234>)
 
-[check](<https://github.com/sera9786/nodejs/blob/master/img/GET_check.JPG>)
+![check](<https://github.com/sera9786/nodejs/blob/master/img/GET_check.JPG>)
 
 ## http
 
@@ -155,7 +155,7 @@ server.listen(port, hostname, () => {
 
 이렇게 log창에 뜨면 ctrl+click 으로 들어가주면 "Hello world"가 잘 출력되는것을 확인할수있다.
 
-[http_check](<https://github.com/sera9786/nodejs/blob/master/img/http_check.JPG>)
+![http_check](<https://github.com/sera9786/nodejs/blob/master/img/http_check.JPG>)
 
 ## 객체
 
