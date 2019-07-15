@@ -126,7 +126,7 @@ app.listen(3000, function(){
 
 
 
-## 템플릿
+## html파일 띄우기
 
 제가 html을 잘하지 않기때문에 여기서는 html을 다루지 않겠습니다. 여기선 nodejs에서 사용되는 템플릿이 무엇이있는지 사용방법이나 프론트를 띄워주는 법을 다루도록 하겠습니다. 
 
@@ -134,7 +134,9 @@ app.listen(3000, function(){
 
 ![createindex](<https://github.com/sera9786/nodejs/blob/master/img/createindex.JPG>)
 
-html파일이 생성되었으면 기본 구조를 알아야합니다. 우선 doc를 치고 엔터를 누르면 기본적인 구조가 생성됩니다.
+html파일이 생성되었으면 기본 구조를 알아야합니다. 우선 doc를 치고 엔터를 누르면 기본적인 구조가 생성됩니다. doc는 document의 줄임말이며 html파일을 생성할때 간편하게 구조를 빠르게 생성할수있습니다.
+
+![doc](<https://github.com/sera9786/nodejs/blob/master/img/doc.JPG>)
 
 ## http
 
