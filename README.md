@@ -159,7 +159,7 @@ app.set('views', path.join(__dirname, 'public'));
 app.engine('html', require('ejs').renderFile);
 ```
 
-이후 app.js를 실행시키고 [localhost:3000/](<http://localhost:3000/>)에 들어가면 hello,world를 확인할수있습니다.
+이후 app.js를 실행시키고 [localhost:3000/](<http://localhost:3000/>)에 들어가면 hello,world를 확인할수있습니다. 이와 말고도 fs모듈을이용해 html을 보여줄수있습니다.
 
 ![hello,world](<https://github.com/sera9786/nodejs/blob/master/img/hello%2Cworld_html.JPG>)
 
