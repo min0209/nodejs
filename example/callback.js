@@ -1,3 +1,4 @@
+//https://medium.com/@appear.ko/javascript-async-to-sync-157c57208598
 function callback1(){
     function a(calllback){
         const whoami = "i am A"
