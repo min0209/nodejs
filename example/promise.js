@@ -12,3 +12,15 @@ function foo(){
 foo().then(function(args){
     console.log(args)
 })
+
+
+var promise = new promise(function(resolve, reject){
+    resolve(1);
+});
+
+promise.then(function(val){
+    console.log(val);
+    return val + 2;
+}).then(function(val){
+    console.log(val);
+})
