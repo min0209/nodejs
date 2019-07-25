@@ -2,7 +2,7 @@
 
 ![nodejs](<https://github.com/sera9786/nodejs/blob/master/img/nodejs.JPG>)
 
-이 레퍼지스토리는 nodejs를 더 능숙하게 다루기위해 nodejs를 집중적으로 공부하기위한 레퍼지스토리입니다
+이 레퍼지스토리는 nodejs를 더 능숙하게 다루기위해 nodejs를 집중적으로 공부하기위한 레퍼지스토리입니다.
 
 
 
