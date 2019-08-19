@@ -227,5 +227,19 @@ const ~~ = require('~~');
 
 
 
-* npm i express :  express를쓰기위한 모듈이다. 
-* npm i body-parser : 클라이언트의 HTTP요청중 POST요청의 바디데이터 접근위한 모듈이다.
+* express :  express를쓰기위한 모듈이다. 
+
+* body-parser : 클라이언트의 HTTP요청중 POST요청의 바디데이터 접근위한 모듈이다.
+
+* [date-utils](<https://linuxism.ustd.ip.or.kr/851>) : 날짜와 시간을 편리하게 사용할수있는 모듈이다.
+
+  * ```
+    require("date-utils")
+    
+    var d = new Date();
+    
+    var time = d.toFormat("YYYY-MM-DD-HH24:MI");
+    console.log(time)
+    ```
+
+* [moment](<https://momentjs.com/>) : 이것또한 날짜와 시간을 다루기위해 사용하는 모듈이다. 
