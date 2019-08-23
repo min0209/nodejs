@@ -98,7 +98,7 @@ $node app.js
 
 이렇게 hello,world가 출력되는 웹페이지가 완성됩니다.
 
-### GET
+## GET
 
 흔히 쓰이는 http 요청 방식에는 GET, POST 두가지가 있습니다. 보통 GET은 정보를 가져오고 POST는 정보를 제출하는데 많이 쓰입니다. 먼저 GET으로 정보를 받는것부터 하겠습니다.
 
@@ -121,8 +121,6 @@ app.listen(3000, function(){
 이코드는 queryData에 query를 받아오고 id와 password를 출력시키는 간단한 코드입니다. 여기에선 jquery가 사용되었는데 query는 /?id=sera&password=1234 이부분에서 ?다음에 있는 정보를 가져옵니다. 코드를 실행시키고 이링크에 들어가면 이렇게 id와password가 출력 되는 것 을 확인할수있습니다.                             
 
 ![check](<https://github.com/sera9786/nodejs/blob/master/img/GET_check.JPG>)
-
-## POST
 
 
 
@@ -202,7 +200,7 @@ server.listen(port, hostname, () => {
 * [전역 객체](<https://opentutorials.org/module/938/6774>)
 * [process 객체](https://opentutorials.org/module/938/7189)
 
-## modules
+## module
 * 모듈 다운로드 방법
 
 ``` 
@@ -225,7 +223,7 @@ npm i -s ~~ (npm install ~~, npm intall --save ~~ )
 const ~~ = require('~~');
 ```
 
-
+## 쓸만한 모듈 모음
 
 * express :  express를쓰기위한 모듈이다. 
 
