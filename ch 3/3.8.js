@@ -5,8 +5,8 @@ http.createServer( (req, res) => {
 
     if(method === 'GET') {
         if(url === '/users'){
-            res.writeHead(200);
-            res.end('hello world');
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.end('<h1>hello world');
         }
     }
 
