@@ -10,8 +10,8 @@ http.createServer( (req, res) => {
         }
     }
 
-    res.writeHead(404);
-    res.end('Not Found Page!');
+    res.writeHead(404, {'Content-Type': 'text/html'});
+    res.end('<h1>Not Found Page!');
 
 }).listen(3000, () => {
     console.log('server on : 3000port')

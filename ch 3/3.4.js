@@ -6,8 +6,9 @@ http.createServer( (req, res) => {
     console.log(url, method)
 
     req.on('data', (data) => {
-      console.log(data)
-      console.log(data.toString())
+      console.log(data) //버퍼형태
+      console.log(data.toString()) //문자열로 병환
+      
       data.toString().split('&').map(item => {
           let s = item.split('=')
           let key = s[0]
