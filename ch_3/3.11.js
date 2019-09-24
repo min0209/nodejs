@@ -11,12 +11,12 @@ http.createServer( (req, res) => {
           let value = s[1]
           body[key] = value
       })
-    }).on('end', () => {
+    }).on('end', () => {    
         for(let i = 0 ; i < 10; i ++){
             console.log(i)
         }
     }).on('error', (err) => {
-      console.log(err)
+      console.log(err)  
     });
 
     if(method === 'POST') {
